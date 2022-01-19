@@ -1,0 +1,104 @@
+{
+    "locations": [
+        {
+            "id": 1,
+            "address": "123 Epic Ct.",
+            "sqft": 1000,
+            "handicap-acc": true
+        },
+        {
+            "id": 2,
+            "address": "321 Awesome Ln.",
+            "sqft": 2000,
+            "handicap-acc":true
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Sour Gummy Bears",
+            "productTypes": "gummy",
+            "price": 2.50
+        },
+        {
+            "id": 2,
+            "name": "Chewy Mango Yum Yums",
+            "productTypes": "gummy",
+            "price": 2.00
+        },
+        {
+            "id": 3,
+            "name": "Limited Edition: Ed, Edd, and Eddy Jawkbreakers!",
+            "productTypes": "hard-candy",
+            "price": 5.00
+        },
+        {
+            "id": 4,
+            "name": "Hardies",
+            "productTypes":"hard-candy",
+            "price": 0.75
+        },
+        {
+            "id": 5,
+            "name":"Nuclear Sourhead",
+            "productTypes":"sour",
+            "price": 0.50
+        },
+        {
+            "id": 6,
+            "name": "Killer Kroc Sours",
+            "productTypes":"sour",
+            "price": 3.25
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "name": "Joseph Cloud",
+            "locationId": 1
+        },
+        {
+            "id": 2,
+            "name": "Talon Dobak",
+            "locationId": 2
+        }
+    ],
+    "productTypes": [
+        {
+            "id": 1,
+            "candyType":"gummy"
+        },
+        {
+            "id": 2,
+            "candyType":"hard-candy"
+        },
+        {
+            "id": 3,
+            "candyType":"sour"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "Knight Solaire of Astora",
+            "email": "sunsolaire@firelink.net"
+        },
+        {
+            "id": 2,
+            "name": "Sir Artorias",
+            "email": "lovedogs115@abyss.org"
+        },
+        {
+            "id": 3,
+            "name": "Knight Lautrec of Carim",
+            "email": "favorkeeper13@firelink.net"
+        }
+    ],
+    "purchases": [
+        {
+            "id": 1,
+            "customerId": 1,
+            "employeeId": 1
+        }
+    ]
+}
